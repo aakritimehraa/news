@@ -1,0 +1,33 @@
+.newss div{
+
+width: 100%;  
+background-color: black;
+height: 20%;
+color: white;
+padding: 20px;
+margin-top: 10%;
+}
+
+.newss p{
+    width: 50%;
+margin-left: 20%;
+
+}
+.newss img{
+    width: 50%;
+    margin-left: 20%;
+    object-fit: contain;
+}
+.newss{
+    display: flex;
+    justify-content: center;
+}
+.newss .titlee{
+font-size: 1em;
+}
+@media (max-width: 1000px) {
+.newss p{
+    width: 100%;
+    margin-left: 0;
+}
+}
